@@ -1,0 +1,23 @@
+{
+    "name": "cpasimusante/exomore-bundle",
+  "description": "SimUSante tool that adds stat functionnnality to UJM/ExoBundle",
+    "keywords": ["Claroline", "Plugin"],
+    "homepage": "http://www.claroline.net",
+    "type": "claroline-plugin",
+    "license": "GPL-3.0+",
+    "require": {
+        "php": ">=5.4.1",
+        "claroline/core-bundle": "~6.0"
+    },
+    "authors": [
+    {
+      "name": "SimUSante",
+      "email": "dechepy.olivier@chu-amiens.fr",
+      "homepage": "http://github.com/CPASimUSante"
+    }
+    ],
+    "autoload": {
+        "psr-0": { "CPASimUSante\\ExomoreBundle": "" }
+    },
+    "target-dir": "CPASimUSante/ExomoreBundle"
+}

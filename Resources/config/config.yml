@@ -1,0 +1,6 @@
+plugin:
+    has_options: false
+    widgets:
+      - name: exomore_stat
+        is_configurable: true
+        is_exportable: false

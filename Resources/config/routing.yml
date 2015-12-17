@@ -1,0 +1,4 @@
+exomore_controller:
+    resource: "@CPASimUSanteExomoreBundle/Controller/ExomoreController.php"
+    type: annotation
+    prefix: /
